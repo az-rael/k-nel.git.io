@@ -1,0 +1,116 @@
+html {
+	background-color: white;
+}
+
+body {
+	background-color: #ede6e6;
+	margin : 0 auto;
+	width: 960px;
+	font-family: arial, helvetica, sans-serif;
+}
+
+/*HEADER*/
+header {
+	height: 170px;
+	padding-top: 20px;
+}
+
+header ul {
+	padding: 0px;
+}
+
+header li {
+	display: inline;
+	padding: 10px;
+	font-size: 16px;
+}
+
+header li:first-child {
+	border-right: 1px solid #373535;
+}
+
+.left {
+	
+	width: 320px;
+	float: left;
+} 
+
+.left	ul {
+	padding-left: 30px;
+	padding-top: 90px;
+}
+
+.right {
+
+	width: 320px;
+	float: right;
+}
+
+.right ul {
+	float: right;
+	padding-right: 30px;
+	padding-top: 90px;
+}
+
+#logo {
+	width: 320px;
+	float: left;
+	text-align: center;
+	color: #b46363;
+	font-size: 36px;
+}
+
+#logo img {
+		border-radius: 50%;
+}
+
+#logo p {
+	margin: 0;
+}
+
+/* FORM */
+h1 {
+	text-align: center;
+}
+
+h1 span {
+	border: 4px dashed #b46363;
+	padding: 10px;
+}
+.section {
+	background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;	
+}
+
+
+form {
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+input, textarea {
+	margin-bottom: 10px;
+	padding: 15px 10px 10px;
+	border: 1px solid #cecece;
+	background-color: #e5e0e0;
+	border-radius: 5px;
+	width: 70%;
+
+}
+button {
+	border-radius: 5px;
+	width: 30%
+}
+
+/* FOOTER */
+
+
+footer {
+	background-color: #e5e0e0;
+	height: 70px;
+	padding-top: 20px;
+	margin: none;
+}
+
