@@ -3,23 +3,28 @@ html {
 }
 
 body {
-	background-color: #ede6e6;
+	background-color: white;
 	margin : 0 auto;
 	width: 960px;
 	font-family: arial, helvetica, sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #373535;
 }
 
 /*HEADER*/
 header {
 	height: 170px;
 	padding-top: 20px;
+	background-color:  #ede6e6;
 }
 
-header ul {
+ul {
 	padding: 0px;
 }
 
-header li {
+li {
 	display: inline;
 	padding: 10px;
 	font-size: 16px;
@@ -30,18 +35,16 @@ header li:first-child {
 }
 
 .left {
-	
 	width: 320px;
 	float: left;
-} 
+}
 
-.left	ul {
+.left ul {
 	padding-left: 30px;
 	padding-top: 90px;
 }
 
 .right {
-
 	width: 320px;
 	float: right;
 }
@@ -58,10 +61,11 @@ header li:first-child {
 	text-align: center;
 	color: #b46363;
 	font-size: 36px;
+
 }
 
 #logo img {
-		border-radius: 50%;
+	border-radius: 50px;
 }
 
 #logo p {
