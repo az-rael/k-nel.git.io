@@ -1,0 +1,105 @@
+html {
+	background-color: white;
+}
+
+body {
+	background-color: white;
+	margin : 0 auto;
+	width: 960px;
+	font-family: arial, helvetica, sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #373535;
+}
+
+/*HEADER*/
+header {
+	height: 170px;
+	padding-top: 20px;
+	background-color:  #ede6e6;
+}
+
+ul {
+	padding: 0px;
+}
+
+li {
+	display: inline;
+	padding: 10px;
+	font-size: 16px;
+}
+
+header li:first-child {
+	border-right: 1px solid #373535;
+}
+
+.left {
+	width: 320px;
+	float: left;
+}
+
+.left ul {
+	padding-left: 30px;
+	padding-top: 90px;
+}
+
+.right {
+	width: 320px;
+	float: right;
+}
+
+.right ul {
+	float: right;
+	padding-right: 30px;
+	padding-top: 90px;
+}
+
+#logo {
+	width: 320px;
+	float: left;
+	text-align: center;
+	color: #b46363;
+	font-size: 36px;
+
+}
+
+#logo img {
+	border-radius: 50px;
+}
+
+#logo p {
+	margin: 0;
+}
+
+section {
+	margin-top: 10px;
+	float: center;
+	
+}
+
+.ugh {
+	text-align: center;
+	
+}
+
+ .ugh h2 span{
+
+	border: 4px dashed #b46363;
+	padding: 10px;
+
+ }
+
+.ugh figure {
+	padding: 10px;
+}
+
+.ugh figcaption {
+	padding: 10px;
+}
+
+footer {
+	background-color: #e5e0e0;
+	height: 70px;
+	padding-top: 20px;
+}
