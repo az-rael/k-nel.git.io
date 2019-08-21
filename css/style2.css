@@ -121,9 +121,14 @@ header li:first-child {
 	padding-right: 50px;
 	text-align: justify;
 }
+/*FOOTER*/
 
 footer {
 	background-color: #e5e0e0;
 	height: 70px;
 	padding-top: 20px;
+}
+
+footer p{
+	text-align: center;
 }
